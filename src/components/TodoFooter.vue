@@ -8,7 +8,7 @@
         <router-link to="/" :class="{ selected: !isActive && !isCompleted }" >All</router-link>
       </li>
       <li>
-        <router-link to="/active":class="{ selected: isActive }">Active</router-link>
+        <router-link to="/active" :class="{ selected: isActive }">Active</router-link>
       </li>
       <li>
         <router-link to="/completed" :class="{ selected: isCompleted }">Completed</router-link>
